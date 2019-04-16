@@ -1,0 +1,154 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+#divLogo{
+    margin-left: 300px;
+}
+
+.miNavegador{
+    width: 100%;
+    background-color: fuchsia;
+}
+
+ul {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.menu > li{
+    display: inline-block;
+}
+
+.menu li a{
+    width: 160px;
+    display: block;
+    padding: 20px 20px;
+    text-decoration: none;
+    color: white;
+}
+.subMenu li a{
+    position: relative;
+    display: none;
+}
+.menu {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin-left: 350px;
+}
+.subMenu {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+.subMenu li a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.menucito:hover .subMenu {
+    display: block;
+    background-color:deepskyblue;
+    opacity: 0.8;
+}
+
+.menucito:hover {
+    background-color:deepskyblue;
+    transition:  0.3s;
+}
+.contenidoPrincipal{
+    margin-left:15%;
+    margin-right:5%;
+}
+.cuerpo{
+    display: flex;
+    flex-direction: row;
+    margin-top:1%;
+}
+aside{
+    margin-right:20%;
+}
+.cuerpoTitulos{
+    color: deepskyblue;
+    margin-bottom: 10px;
+}
+aside h2{
+    width: 200px;
+    display: block;
+    color: deepskyblue;
+}
+.asideTitulo{
+    margin-bottom: 10px;
+}
+.asideLista{
+    text-decoration: none;
+}
+
+.asideLista a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.imagenesCuerpo{
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+section{
+    margin-bottom: 20px;
+}
+
+.botonCuerpo{
+    text-decoration: none;
+    margin-top: 10px;
+    height: 40px;
+    width: 200px;
+    background-color: deepskyblue;
+    text-align: center;
+    display: block;
+    padding: 11px;
+    color: white;
+}
+
+footer{
+    width: 100%;
+    height: 300px;
+    background-color: fuchsia;
+    display: flex;
+}
+.sobreNos{
+    margin-top: 50px;
+    margin-left:230px;
+    margin-right:60%;
+    display: block;
+    color: white;
+    
+}
+
+.sobreNos h2{
+    margin-bottom: 10px;
+}
+
+.menuFooter li:hover{
+    background-color: deepskyblue;
+}
+
+.menuFooter a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.derechoAutor{
+    
+}
